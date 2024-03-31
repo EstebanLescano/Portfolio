@@ -1,13 +1,13 @@
 import {Container, Row, Col} from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
-import headerImg from"../assets/img/globo-terraqueo.png";
+import headerImg from"../assets/img/foto1.png";
 
 import {useEffect, useState} from "react";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeletenig, setIsDeletenig] = useState(false);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Web Developer", "Backend Java","SpringBoot"];
     const [text, setText] = useState ("");
     const [delta, setDelta] = useState (300 - Math.random() * 100);
     const period = 2000;

@@ -37,6 +37,44 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: normal;
 }
+p.danger{
+  color: red;
+}
+nav.navbar{
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  /*transition: 0.32 ease-in-out;*/
+}
+
+nav.navbar.scrolled{
+  padding: 0px 0;
+  background-color: #121212;
+}
+
+nav.navbar a.navbar-brand{
+  width: 9%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link{
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active{
+  opacity: 1;
+}
+
+span.navbar-text{
+  display: flex;
+  align-items: center;
+}
 
 .App {
   text-align: center;
