@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 // import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/instagram.png';
 import navIcon3 from '../assets/img/whatsapp.png';
+
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
     const [scrolled, seScrolled] = useState(false)
@@ -33,17 +34,15 @@ export const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" className={
-                            activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
+                        <Nav.Link href="#home"
+                                  className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
                                   onClick={() => onUpdateActiveLink('home')}>Home </Nav.Link>
                         <Nav.Link href="#link"
                                   className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
-                                  onClick={() => onUpdateActiveLink('skills')}
-                        >skills</Nav.Link>
+                                  onClick={() => onUpdateActiveLink('skills')}>skills</Nav.Link>
                         <Nav.Link href="#link"
                                   className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
-                                  onClick={() => onUpdateActiveLink('projects')}
-                        >projects</Nav.Link>
+                                  onClick={() => onUpdateActiveLink('projects')}>projects</Nav.Link>
                     </Nav>
                     <span className="navbar-text">0
                         <div className="social-icon">
