@@ -1,20 +1,20 @@
 /*Custom Fonts*/
 @font-face {
     font-family: Centra;
-    src: url("./assets/fonts/Anta-Regular.ttf");
+    src: url("./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf");
     font-weight: 700 ;
 }
 
 @font-face {
     font-family: Centra;
-    src: url("./assets/fonts/Anta-Regular.ttf");
+    src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
     font-weight: 500 ;
 }
 
 @font-face {
     font-family: Centra;
-    src: url("./assets/fonts/Anta-Regular.ttf");
-    font-weight: 400 ;
+    src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight: 500 ;
 }
 
 /*Default CSS*/
@@ -253,7 +253,7 @@ border-color: transparent;
 .banner p{
     color: yellow;
     font-size: 18px;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     line-height: 1.5em;
     width: 96%;
 }
@@ -296,7 +296,7 @@ border-color: transparent;
 }
 
 .txt-rotate > .wrap{
-    border-right: 0.08em solid #666;
+    border-right: 0.08em solid darkred;
 }
 
 /*Skills*/
@@ -320,7 +320,7 @@ border-color: transparent;
 
 .skill p{
     color: #B8B8B8;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }

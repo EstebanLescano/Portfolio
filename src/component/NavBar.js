@@ -1,6 +1,6 @@
 import {Navbar, Container, Nav} from "react-bootstrap";
 import {useEffect, useState} from "react";
-// import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/instagram.png';
 import navIcon3 from '../assets/img/whatsapp.png';
 
@@ -27,9 +27,10 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
-                {/*<img src={logo} alt="Logo"/>*/}
-                <Navbar.Toggle>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                <Navbar.Brand href="#home">
+                    <img src={''} alt="Logo"/>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -47,12 +48,10 @@ export const NavBar = () => {
                     <span className="navbar-text">0
                         <div className="social-icon">
                             <a href="#"><img src={navIcon1} alt=" "/></a>
-                            {/*<a href="#"><img src={navIcon2} alt=" "/></a>*/}
                             <a href="#"><img src={navIcon3} alt=" "/></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}>
-                            <span>Let’s Connect</span>
-                        </button>
+                        <button className="vvd"
+                                onClick={() => console.log('connect')}><span>Let’s Connect</span></button>
                     </span>
                 </Navbar.Collapse>
             </Container>
