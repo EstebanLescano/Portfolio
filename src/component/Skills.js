@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {Col, Container, Row} from "react-bootstrap";
-// import {meter1} from "../assets/img/meter1.svg";
+import  meter1 from "../assets/img/90.svg";
 // import {meter2} from "../assets/img/meter1.svg";
 // import {meter3} from "../assets/img/meter1.svg";
 // import {colorSharp} from "../assets/img/color-sharp.png";
@@ -35,7 +35,7 @@ export const Skills = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elite</p>
                         <Carousel responsive={responsive} infinite={true} className=" skill-slider">
                             <div className="items">
-                                <img src={"./assets/img/meter1.svg"} alt="Image"/>
+                                <img src={meter1} alt="Image" className="carousel-image"/>
                                 <h2>Developer</h2>
                             </div>
                             <div>
