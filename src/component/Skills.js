@@ -38,14 +38,14 @@ export const Skills = () => {
                                 <img src={"./assets/img/meter1.svg"} alt="Image"/>
                                 <h2>Developer</h2>
                             </div>
-                            {/*<div>*/}
-                            {/*    <img src={meter2} alt=""/>*/}
-                            {/*    <h5>Brand Identity</h5>*/}
-                            {/*</div>*/}
-                            {/*<div>*/}
-                            {/*    <img src={meter3} alt=""/>*/}
-                            {/*    <h5>Developer</h5>*/}
-                            {/*</div>*/}
+                            <div>
+                                {/*<img src={} alt=""/>*/}
+                                <h2>Brand Identity</h2>
+                            </div>
+                            <div>
+                                {/*<img src={meter3} alt=""/>*/}
+                                <h2>Developer</h2>
+                            </div>
                         </Carousel>
                     </div>
                 </Col>
