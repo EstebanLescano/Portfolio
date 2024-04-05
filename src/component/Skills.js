@@ -34,69 +34,69 @@ export const Skills = () => {
                         <h2>
                             Herramientas y tecnologias que uso a diario y que voy mejorando dia a dia
                         </h2>
-                        <Carousel responsive={responsive} infinite={true} className=" skill-slider">
+                        <Carousel responsive={responsive} className=" skill-slider">
                             <div className="items">
-                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <img src={meter90} alt="90%" className="carousel-image"/>
                                 <h2>Java</h2>
                             </div>
                             <div>
-                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <img src={meter90} alt="90%" className="carousel-image"/>
                                 <h2>Spring Boot</h2>
                             </div>
                             <div>
-                                <img src={meter100} alt="Image" className="carousel-image"/>
+                                <img src={meter100} alt="100%" className="carousel-image"/>
                                 <h2>Jira</h2>
                             </div>
                             <div>
-                                <img src={meter60} alt="Image" className="carousel-image"/>
+                                <img src={meter60} alt="60%" className="carousel-image"/>
                                 <h2>Kotlin</h2>
                             </div>
                             <div>
-                                <img src={meter40} alt="Image" className="carousel-image"/>
+                                <img src={meter40} alt="40%" className="carousel-image"/>
                                 <h2>Go</h2>
                             </div>
                             <div>
-                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <img src={meter90} alt="90%" className="carousel-image"/>
                                 <h2>MongoDB</h2>
                             </div>
                             <div>
-                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <img src={meter90} alt="90%" className="carousel-image"/>
                                 <h2>Posgress</h2>
                             </div>
                             <div>
-                                <img src={meter100} alt="Image" className="carousel-image"/>
+                                <img src={meter100} alt="100%" className="carousel-image"/>
                                 <h2>Git</h2>
                             </div>
                             <div>
-                                <img src={meter75} alt="Image" className="carousel-image"/>
+                                <img src={meter75} alt="75%" className="carousel-image"/>
                                 <h2>Android</h2>
                             </div>
                             <div>
-                                <img src={meter100} alt="Image" className="carousel-image"/>
+                                <img src={meter100} alt="100%" className="carousel-image"/>
                                 <h2>Postman</h2>
                             </div>
                             <div>
-                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <img src={meter90} alt="90%" className="carousel-image"/>
                                 <h2>Swagger</h2>
                             </div>
                             <div>
-                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <img src={meter90} alt="90%" className="carousel-image"/>
                                 <h2>AWS</h2>
                             </div>
                             <div>
-                                <img src={meter50} alt="Image" className="carousel-image"/>
+                                <img src={meter50} alt="50%" className="carousel-image"/>
                                 <h2>Terraform</h2>
                             </div>
                             <div>
-                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <img src={meter90} alt="90%" className="carousel-image"/>
                                 <h2>Docker</h2>
                             </div>
                             <div>
-                                <img src={meter50} alt="Image" className="carousel-image"/>
+                                <img src={meter50} alt="50%" className="carousel-image"/>
                                 <h2>React</h2>
                             </div>
                             <div>
-                                <img src={meter50} alt="Image" className="carousel-image"/>
+                                <img src={meter50} alt="50%" className="carousel-image"/>
                                 <h2>VueJs</h2>
                             </div>
                         </Carousel>
