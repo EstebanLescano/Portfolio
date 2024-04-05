@@ -1,6 +1,6 @@
 import {Container, Row, Col} from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
-import headerImg from"../assets/img/fotocarnet.png";
+import headerImg from "../assets/img/png/fotocarnet.png";
 
 import {useEffect, useState} from "react";
 

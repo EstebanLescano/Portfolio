@@ -44,9 +44,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: normal;
 }
 
-p .danger {
-    color: red;
-}
+/*p .danger {*/
+/*    color: red;*/
+/*}*/
 
 nav.navbar {
     padding: 18px 0;
@@ -63,7 +63,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 20%;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -87,17 +87,17 @@ span.navbar-text {
 
 .social-icon {
     display: inline-flex;
-    margin-left: 14px;
+    margin-left: 100px;
 }
 
 .social-icon {
-    width: 42px;
-    height: 42px;
+    width: 300px;
+    height: 300px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
-    margin-right: 6px;
-    alin-items: cennter;
+    margin-right: 10px;
+    alin-items: center;
     justify-content: center;
     line-height: 1;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -105,27 +105,27 @@ span.navbar-text {
 
 .social-icon a::before {
     content: "";
-    width: 42px;
-    height: 42px;
+    width: 300px;
+    height: 300px;
     position: absolute;
     background-color: white;
     border-radius: 50%;
     transform: scale(0);
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
-.social-icon a:hover::before {
-    transform: scale(2%);
-}
+/*.social-icon a:hover::before {*/
+/*    transform: scale(1);*/
+/*}*/
 
 .social-icon a img {
-    width: 40%;
+    width: 60%;
     z-index: 1;
     transition: 0.3s ease-in-out;
 }
 
 .social-icon a:hover img {
-    filter: brightness(0) saturate(100%) sepia(7%) saturate(98%) hue-rotate(346deg);
+    filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(50%) contrast(86%);
 }
 
 navbar-text button {
@@ -164,7 +164,7 @@ navbar-text button {
     content: "";
     width: 100%;
     height: 100%;
-    /*position: absolute;*/
+    position: absolute;
 }
 
 nav.navbar .navbar-toggler:active,
@@ -192,7 +192,7 @@ nav.navbar .navbar-toggler-icon:before {
     width: 24px;
     position: absolute;
     height: 2px;
-    background-color: white;
+    background-color: #ffffff;
     top: 0;
     left: 0;
     content: "";
@@ -206,13 +206,13 @@ nav.navbar .navbar-toggler-icon:after {
 
 nav.navbar .navbar-toggler [aria-expanded="true"] .navbar-toggler-icon:after{
     trasform: rotate(45deg);
-    background-color: white;
+    background-color: #ffffff;
     height: 2px;
 }
 
 nav.navbar .navbar-toggler [aria-expanded="true"] .navbar-toggler-icon:before{
-    trasform: rotate(45deg);
-    background-color: white;
+    trasform: translateY(8px) rotate(-45deg);
+    background-color: #ffffff;
     height: 2px;
 }
 
@@ -224,7 +224,7 @@ border-color: transparent;
 .banner {
     margin-top: 0;
     padding: 260px 0 100px 0;
-    background-image: url("./assets/img/computer.png");
+    background-image: url("assets/img/png/computer.png");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;

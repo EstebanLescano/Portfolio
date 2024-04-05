@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {Col, Container, Row} from "react-bootstrap";
-import  meter1 from "../assets/img/90.svg";
+import  meter1 from "../assets/img/svg/90.svg";
 // import {meter2} from "../assets/img/meter1.svg";
 // import {meter3} from "../assets/img/meter1.svg";
 // import {colorSharp} from "../assets/img/color-sharp.png";
