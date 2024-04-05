@@ -28,3 +28,13 @@ M
 src/assets/img/svg/meter1.svg,7/3/73990c978a80db3c4907008923bd3eb439f970ca
 I
 src/assets/img/svg/90.svg,a/7/a72191b2da5eed78957b4b26eb644e0994bd759f
+I
+src/assets/img/svg/50.svg,b/a/ba51c8375a992d40cf6225c1699aecf1a0beedef
+I
+src/assets/img/svg/60.svg,0/0/003567473a831204055fa18aff6da887d4c476ed
+I
+src/assets/img/svg/75.svg,2/f/2f02c5ba5fc1e4da3dc3f4844fc151b21b8acb97
+J
+src/assets/img/svg/100.svg,9/2/922d85458b468002ff39d69beae2948db3e6b0a8
+I
+src/assets/img/svg/40.svg,1/f/1fed930c1288d62a3279a6bfff9a0f6df26869fd

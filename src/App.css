@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 nav.navbar {
     padding: 18px 0;
     position: fixed;
-    width: 100%;
+    width: 80%;
     top: 0;
     z-index: 9999;
     transition: 0.32s ease-in-out;
@@ -71,8 +71,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     color: #fff !important;
     letter-spacing: 1px;
     padding: 0 25px;
-    font-size: 18px;
-    opacity: 0.75;
+    font-size: 26px;
+    opacity: 0.65;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -93,14 +93,12 @@ span.navbar-text {
 .social-icon {
     width: 300px;
     height: 300px;
-    background: rgba(217, 217, 217, 0.1);
+    position: relative;
     display: inline-flex;
-    border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 20px;
     alin-items: center;
-    justify-content: center;
+    justify-content: right;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .social-icon a::before {
@@ -109,14 +107,8 @@ span.navbar-text {
     height: 300px;
     position: absolute;
     background-color: white;
-    border-radius: 50%;
     transform: scale(0);
-    transition: 0.5s ease-in-out;
 }
-
-/*.social-icon a:hover::before {*/
-/*    transform: scale(1);*/
-/*}*/
 
 .social-icon a img {
     width: 60%;
@@ -319,7 +311,7 @@ border-color: transparent;
 }
 
 .carousel-image {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 

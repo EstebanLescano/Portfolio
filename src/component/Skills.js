@@ -1,10 +1,12 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {Col, Container, Row} from "react-bootstrap";
-import  meter1 from "../assets/img/svg/90.svg";
-// import {meter2} from "../assets/img/meter1.svg";
-// import {meter3} from "../assets/img/meter1.svg";
-// import {colorSharp} from "../assets/img/color-sharp.png";
+import  meter100 from "../assets/img/svg/100.svg";
+import meter90 from "../assets/img/svg/90.svg";
+import meter75 from "../assets/img/svg/75.svg";
+import meter60 from "../assets/img/svg/60.svg"
+import meter50 from "../assets/img/svg/50.svg"
+import meter40 from "../assets/img/svg/40.svg"
 
 export const Skills = () => {
     const responsive = {
@@ -26,25 +28,76 @@ export const Skills = () => {
             <Row>
                 <Col>
                     <div className="skills-bx">
-                        <h2>
+                        <h3>
                             Skills
+                        </h3>
+                        <h2>
+                            Herramientas y tecnologias que uso a diario y que voy mejorando dia a dia
                         </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Suspendisse varius enim in eros elementum tristique.<br></br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elite</p>
                         <Carousel responsive={responsive} infinite={true} className=" skill-slider">
                             <div className="items">
-                                <img src={meter1} alt="Image" className="carousel-image"/>
-                                <h2>Developer</h2>
+                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <h2>Java</h2>
                             </div>
                             <div>
-                                {/*<img src={} alt=""/>*/}
-                                <h2>Brand Identity</h2>
+                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <h2>Spring Boot</h2>
                             </div>
                             <div>
-                                {/*<img src={meter3} alt=""/>*/}
-                                <h2>Developer</h2>
+                                <img src={meter100} alt="Image" className="carousel-image"/>
+                                <h2>Jira</h2>
+                            </div>
+                            <div>
+                                <img src={meter60} alt="Image" className="carousel-image"/>
+                                <h2>Kotlin</h2>
+                            </div>
+                            <div>
+                                <img src={meter40} alt="Image" className="carousel-image"/>
+                                <h2>Go</h2>
+                            </div>
+                            <div>
+                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <h2>MongoDB</h2>
+                            </div>
+                            <div>
+                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <h2>Posgress</h2>
+                            </div>
+                            <div>
+                                <img src={meter100} alt="Image" className="carousel-image"/>
+                                <h2>Git</h2>
+                            </div>
+                            <div>
+                                <img src={meter75} alt="Image" className="carousel-image"/>
+                                <h2>Android</h2>
+                            </div>
+                            <div>
+                                <img src={meter100} alt="Image" className="carousel-image"/>
+                                <h2>Postman</h2>
+                            </div>
+                            <div>
+                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <h2>Swagger</h2>
+                            </div>
+                            <div>
+                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <h2>AWS</h2>
+                            </div>
+                            <div>
+                                <img src={meter50} alt="Image" className="carousel-image"/>
+                                <h2>Terraform</h2>
+                            </div>
+                            <div>
+                                <img src={meter90} alt="Image" className="carousel-image"/>
+                                <h2>Docker</h2>
+                            </div>
+                            <div>
+                                <img src={meter50} alt="Image" className="carousel-image"/>
+                                <h2>React</h2>
+                            </div>
+                            <div>
+                                <img src={meter50} alt="Image" className="carousel-image"/>
+                                <h2>VueJs</h2>
                             </div>
                         </Carousel>
                     </div>
@@ -52,6 +105,6 @@ export const Skills = () => {
             </Row>
         </Container>
             {/*<img className="background-image-left" src={colorSharp}/>*/}
-    </section>
+        </section>
 )
 }

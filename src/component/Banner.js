@@ -44,8 +44,8 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline"> Welcome to my Portfolio</span>
-                            <h1>{`¡Hi I'm Esteban Lescano!`}<span className = "wrap"> {text}</span></h1>
+                        <span className="tagline"> Bienvenido a mi Portfolio</span>
+                            <h1>{`¡Hola soy Esteban Lescano!`}<span className = "wrap"> {text}</span></h1>
                             <p>Técnico Desarrollador enfocado en proyectos de desarrollo de aplicaciones seguras.
                                 Comprometido con la gestión efectiva del tiempo y la entrega de resultados.
                                 Apasionado por la informática y dedicado a mantenerme actualizado en tecnologías
