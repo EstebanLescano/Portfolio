@@ -148,9 +148,9 @@ navbar-text button {
     transition: 0.3s ease-in-out;
 }
 
-.navbar-text button:hover {
-    color: #121212;
-}
+/*.navbar-text button:hover {*/
+/*    color: #121212;*/
+/*}*/
 
 .navbar-text button:hover::before {
     content: "";
@@ -236,7 +236,7 @@ border-color: transparent;
 .banner h1{
     font-size: 65px;
     font-weight: 700;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     line-height: 1;
     margin-bottom: 20px;
     display: block;
@@ -255,7 +255,7 @@ border-color: transparent;
     font-weight: 700;
     font-size: 20px;
     margin-top: 60px;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     display: flex;
     align-items: center;
 }
