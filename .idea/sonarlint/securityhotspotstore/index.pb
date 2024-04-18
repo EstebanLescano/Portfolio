@@ -56,3 +56,9 @@ O
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 c
 3.github/workflows/firebase-hosting-pull-request.yml,8/9/896637346ca5b559afa1761a60cf7c7f455a2878
+I
+src/component/Proyects.js,3/a/3a69b2c21beaf9a36f434dd61907073d7b788a62
+=
+src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
+8
+src/.env,f/8/f8550963f8b93cc32435b4600b84f3d3def8daa7
